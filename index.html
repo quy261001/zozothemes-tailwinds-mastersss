@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+/>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+  <link rel="stylesheet" href="./build/tailwind.css">
+  <link rel="stylesheet" href="./build/style.css">
+  <script src="./script.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- menu -->
+    <div class="menu">
+      <a class="menu-close">
+        <i class="fa fa-times"></i>
+      </a>
+      <div class="menu-cotainer pt-[30px]">
+        <div class="menu-about mb-10">
+          <h5 class="footer-item-title">About Me</h5>
+          <a href="#">
+            <img class="h-auto mx-auto my-0 w-full" src="https://zozothemes.com/html/epoint/demo/images/content/others/9.jpg" alt="">
+          </a>
+          <p class="p-global mt-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore velit esse cillum dolore eu fugiat nulla pariaturdolore eu fugiat nulla pariatur.
+          </p>
+        </div>
+        <div class="menu-post mb-10">
+          <h5 class="footer-item-title">Recent Post</h5>
+          <div class="menu-post-item">
+            <img class="menu-postImg" src="https://zozothemes.com/html/epoint/demo/images/content/blog/thumb/1.jpg" alt="">
+            <div class="menu-post-content">
+              <h6 class="hover:text-[#337ab7] cursor-pointer">Google Released New Android Application</h6>
+              <p>27th Aug, 2016</p>
+            </div>
+          </div>
+          <div class="menu-post-item">
+            <img class="menu-postImg" src="https://zozothemes.com/html/epoint/demo/images/content/blog/thumb/2.jpg" alt="">
+            <div class="menu-post-content">
+              <h6 class="hover:text-[#337ab7] cursor-pointer">We Established our New office in california</h6>
+              <p>26th Aug, 2016</p>
+            </div>
+          </div>
+          <div class="menu-post-item">
+            <img class="menu-postImg" src="https://zozothemes.com/html/epoint/demo/images/content/blog/thumb/3.jpg" alt="">
+            <div class="menu-post-content">
+              <h6 class="hover:text-[#337ab7] cursor-pointer">Another Milestone we reached in search engine optimization.
+              </h6>
+              <p>23rd Aug, 2016</p>
+            </div>
+          </div>
+        </div>
+        <div class="menu-footer">
+          <h5 class="footer-item-title">Social Share</h5>
+          <ul class="grid grid-cols-6">
+            <li class="menu-footerLi ">
+              <a class="menu-footer-link" href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+            <li class="menu-footerLi">
+              <a class="menu-footer-link" href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            </li>
+            <li class="menu-footerLi">
+              <a class="menu-footer-link" href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </li>
+            <li class="menu-footerLi">
+              <a class="menu-footer-link" href="#"><ion-icon name="logo-pinterest"></ion-icon></a>
+            </li>
+            <li class="menu-footerLi">
+              <a class="menu-footer-link" href="#"><ion-icon name="logo-google"></ion-icon></a>
+            </li>
+            <li class="menu-footerLi">
+              <a class="menu-footer-link" href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+            </li>
+            <li class="menu-footerLi">
+              <a class="menu-footer-link" href="#"><ion-icon name="logo-dribbble"></ion-icon></a>
+            </li>
+            <li class="menu-footerLi">
+              <a class="menu-footer-link" href="#"><ion-icon name="logo-flickr"></ion-icon></a>
+            </li>
+            <li class="menu-footerLi">
+              <a class="menu-footer-link" href="#"><ion-icon name="aperture-outline"></ion-icon></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- menuTable -->
+    <div class="menu-tb sm:hidden md:block lg:hidden">
+      <div class="menu-tb-title">
+        <a href="#" class="menu-tb-link">Menu</a>
+      </div>
+      <div class="menu-tb-search">
+        <input class="menu-tb-input" type="text" placeholder="Search" autocomplete="off">
+      </div>
+      <ul class="menu-tb-nav">
+        <li class="menu-tb-item">
+          <a href="#" class="tb-title-link">Home</a>
+        </li>
+        <li class="menu-tb-item">
+          <a href="#" class="tb-title-link">Headers</a>
+        </li>
+        <li class="menu-tb-item">
+          <a href="#" class="tb-title-link">Pages</a>
+        </li>
+        <li class="menu-tb-item">
+          <a href="#" class="tb-title-link">Features</a>
+        </li>
+        <li class="menu-tb-item">
+          <a href="#" class="tb-title-link">Portfolio</a>
+        </li>
+        <li class="menu-tb-item">
+          <a href="#" class="tb-title-link">Blog</a>
+        </li>
+        <li class="menu-tb-item">
+          <a href="#" class="tb-title-link">Shop</a>
+        </li>
+        <li class="menu-tb-item">
+          <a href="#" class="tb-title-link">Elements</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- menuMobile -->
+    <div class="menu-mb sm:block md:hidden lg:hidden">
+      <div class="menu-mb-title">
+        <a class="menu-title-link" href="#">Menu</a>
+      </div>
+      <div class="menu-mb-search">
+        <input class="menu-mb-input" type="text" placeholder="Search" autocomplete="off">
+      </div>
+      <ul class="menu-mb-nav">
+        <li class="menu-mb-item">
+          <a class="mb-title-link" href="#">Home</a>
+          <span class="menu-title-right">
+            14
+            <i class="fa fa-angle-right"></i>
+          </span>
+        </li>
+        <li class="menu-mb-item">
+          <a class="mb-title-link" href="#">Headers</a>
+          <span class="menu-title-right">
+            2
+            <i class="fa fa-angle-right"></i>
+          </span>
+        </li>
+        <li class="menu-mb-item">
+          <a class="mb-title-link" href="#">Pages</a>
+          <span class="menu-title-right">
+            4
+            <i class="fa fa-angle-right"></i>
+          </span>
+        </li>
+        <li class="menu-mb-item">
+          <a class="mb-title-link" href="#">Features</a>
+          <span class="menu-title-right">
+            8
+            <i class="fa fa-angle-right"></i>
+          </span>
+        </li>
+        <li class="menu-mb-item">
+          <a class="mb-title-link" href="#">Portfolio</a>
+          <span class="menu-title-right">
+            6
+            <i class="fa fa-angle-right"></i>
+          </span>
+        </li>
+        <li class="menu-mb-item">
+          <a class="mb-title-link" href="#">Blog</a>
+          <span class="menu-title-right">
+            7
+            <i class="fa fa-angle-right"></i>
+          </span>
+        </li>
+        <li class="menu-mb-item">
+          <a class="mb-title-link" href="#">Shop</a>
+          <span class="menu-title-right">
+            7
+            <i class="fa fa-angle-right"></i>
+          </span>
+        </li>
+        <li class="menu-mb-item">
+          <a class="mb-title-link" href="#">Elements</a>
+          <span class="menu-title-right">
+            4
+            <i class="fa fa-angle-right"></i>
+          </span>
+        </li>
+      </ul>
+    </div>
+    <!-- Option -->
+    <div class="option sm:hidden md:block lg:block">
+      <h4>Option Panel</h4>
+      <a class="option-icon"><i class="fa fa-cog"></i></a>
+      <br>
+      <a class="option-buy !option-buyTransparent">Buy EPOINT</a>
+      <h5 class="optione-buyTitle">Change Color</h5>
+      <div class="option-color ">
+        <a href="#" class="option-colorLink bg-[#1abc9c]"></a>
+        <a href="#" class="option-colorLink bg-[#006b63]"></a>
+        <a href="#" class="option-colorLink bg-[#336e7b]"></a>
+        <a href="#" class="option-colorLink bg-[#e67e22]"></a>
+        <a href="#" class="option-colorLink bg-[#ff6a30]"></a>
+        <a href="#" class="option-colorLink bg-[#eaab00]"></a>
+        <a href="#" class="option-colorLink bg-[#37479d]"></a>
+        <a href="#" class="option-colorLink bg-[#3498db]"></a>
+        <a href="#" class="option-colorLink bg-[#32c5d2]"></a>
+        <a href="#" class="option-colorLink bg-[#5893dd]"></a>
+        <a href="#" class="option-colorLink bg-[#e7505a]"></a>
+        <a href="#" class="option-colorLink bg-[#cdb083]"></a>
+      </div>
+      <h5 class="optione-buyTitle ">Demos / Create Custom color</h5>
+      <a href="#" class="option-buy option-btn !option-buyBlack">Click Here</a>
+    </div>
+
+
+
+    <!-- Header-->   
+    <header class="header sm:bg-[#171717] md:bg-[#171717] lg:bg-transparent">
+      <div class="header-bars-mobile sm:block md:hidden lg:hidden">
+        <i class="fa fa-bars pointer-events-none"></i>
+      </div>
+      <div class="header-bars-table sm:hidden md:block  lg:hidden">
+        <i class="fa fa-bars pointer-events-none"></i>
+      </div>
+      <form class="header-form">
+        <input class="header-formInput" type="text" placeholder="TYPE AND HIT ENTER.."> 
+        <span class="header-form-icons">
+          <i class="fa fa-times"></i>
+        </span>
+      </form>
+      <div class="max-w-[1200px] px-[15px] mx-auto header-container flex-between sm:h-[60px] md:h-[60px] lg:h-[65px]">
+        <a href="#" class="py-0 px-[15px] sm:pl-10 md:pl-10 lg:px-[15px]">
+          <img class="header-img" src="https://zozothemes.com/html/epoint/demo/images/logo-light.png" alt="logo">
+        </a>
+        <div class="flex items-center justify-center">
+          <ul class="flex items-center sm:hidden md:hidden lg:flex">
+            <li class="relative group">
+              <a href="#" class="title-header">Home</a>
+              <ul class="titleHeader-navUl group-hover:block ">
+                <li class="titleHeader-navLi">
+                  <a href="#" class=" titleHeader-navLink ">Home Corporate</a>
+                  <i class="fa fa-angle-right"></i>
+                  <ul class="absolute top-0 right-[-100%]  boder-[0, 0, 0, 0.7] bg-[#242424] w-[200px] hidden">
+                    <li class="p-[10px] font-semibold">
+                      <a class="text-[#fff]" href="#">Corporate Layout 1</a>
+                    </li>
+                    <li class="p-[10px] font-semibold">
+                      <a class="text-[#fff]" href="#">Corporate Layout 2</a>
+                    </li>
+                    <li class="p-[10px] font-semibold">
+                      <a class="text-[#fff]" href="#">Corporate Layout 3</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="titleHeader-navLi">
+                  <a href="#" class="titleHeader-navLink">Home Agency</a>
+                  <i class="fa fa-angle-right"></i>
+                </li>
+                <li class="titleHeader-navLi">
+                  <a href="#" class="titleHeader-navLink">Home Portfolio</a>
+                  <i class="fa fa-angle-right"></i>
+                </li>
+                <li class="titleHeader-navLi">
+                  <a href="#" class="titleHeader-navLink">Langding page</a>
+                  <i class="fa fa-angle-right"></i>
+                </li>
+                <li class="titleHeader-navLi">
+                  <a href="#" class="titleHeader-navLink">Home Shop</a>
+                  <i class="fa fa-angle-right"></i>
+                </li>
+                <li class="titleHeader-navLi">
+                  <a href="#" class="titleHeader-navLink">Home Blog</a>
+                  <i class="fa fa-angle-right"></i>
+                </li>
+                <li class="titleHeader-navLi">
+                  <a href="#" class="titleHeader-navLink">Home One page</a>
+                  <i class="fa fa-angle-right"></i>
+                </li>
+                <li class="titleHeader-navLi">
+                  <a href="#" class="titleHeader-navLink">Home industries</a>
+                  <i class="fa fa-angle-right"></i>
+                </li>
+                <li class="titleHeader-navLi">
+                  <a href="#" class="titleHeader-navLink">Home Business</a>
+                  <i class="fa fa-angle-right"></i>
+                </li>
+                <li class="titleHeader-navLi">
+                  <a href="#" class="titleHeader-navLink">Home Flat design</a>
+                  <i class="fa fa-angle-right"></i>
+                </li>
+                <li class="titleHeader-navLi">
+                  <a href="#" class="titleHeader-navLink">Home material design</a>
+                  <i class="fa fa-angle-right"></i>
+                </li>
+                <li class="titleHeader-navLi">
+                  <a href="#" class="titleHeader-navLink">Home App</a>
+                  <i class="fa fa-angle-right"></i>
+                </li>
+                <li class="titleHeader-navLi">
+                  <a href="#" class="titleHeader-navLink">Home Events</a>
+                  <i class="fa fa-angle-right"></i>
+                </li>
+                <li class="titleHeader-navLi">
+                  <a href="#" class="titleHeader-navLink">Home Freelancer</a>
+                  <i class="fa fa-angle-right"></i>
+                </li>
+              </ul>
+            </li>
+            <li class="relative">
+              <a href="#" class="title-header">HEADERS</a>
+            </li>
+            <li class="relative">
+              <a href="#" class="title-header">PAGES</a>
+            </li>
+            <li class="relative">
+              <a href="#" class="title-header">FEATURES</a>
+            </li>
+            <li class="relative">
+              <a href="#" class="title-header">FORTFOLIO</a>
+            </li>
+            <li class="relative">
+              <a href="#" class="title-header">BLOG</a>
+            </li>
+            <li class="relative">
+              <a href="#" class="title-header">SHOP</a>
+            </li>
+            <li class="relative">
+              <a href="#" class="title-header">ELEMENTS</a>
+            </li>
+          </ul>
+          <div class="flex-item-center">
+            <div class="iconHeader header-icon-search">
+              <i class="fa fa-search hover:text-[#3498db] duration-200"></i>
+            </div>
+            <div after="3" class="iconHeader header-icon-shopping after:content-[attr(after)] after:relative after:top-[-10px] after:right-[8px] after:bg-[#3498db] after:text-[12px] after:font-medium after:leading-4 after:w-4 after:h-4 after:rounded-[50%] after:inline-block after:pt[1px] after:pl-[2px] after:text-[#fff] after:text-center ">
+              <i class="fa fa-shopping-bag shopping-svg "></i>
+              <ul class="shopping-dropdown">
+                <li>
+                  <div class="shopping-dropdown-item ">
+                    <div class="shopping-left">
+                      <img class="w-[70px] mr-[15px]" src="https://zozothemes.com/html/epoint/demo/images/content/shop/small1.jpg" alt="">
+                      <div class="shopping-info">
+                        <a href="#" class="shopping-info-link">Muf Jocket for Mens</a>
+                        <p class="text-[#fff] text-[14px]">23$</p>
+                      </div>
+                    </div>
+                    <div class="shopping-right">
+                      <button class="shopping-btn">X</button>
+                    </div>                 
+                  </div>
+                  <div class="shopping-dropdown-item ">
+                    <div class="shopping-left">
+                      <img class="w-[70px] mr-[15px]" src="https://zozothemes.com/html/epoint/demo/images/content/shop/small2.jpg" alt="">
+                      <div class="shopping-info">
+                        <a href="#" class="shopping-info-link">Lady Stylish Black Shoes </a>
+                        <p class="text-[#fff] text-[14px]">23$</p>
+                      </div>
+                    </div>
+                    <div class="shopping-right">
+                      <button class="shopping-btn">X</button>
+                    </div>                 
+                  </div>
+                  <div class="shopping-dropdown-item ">
+                    <div class="shopping-left">
+                      <img class="w-[70px] mr-[15px]" src="https://zozothemes.com/html/epoint/demo/images/content/shop/small3.jpg" alt="">
+                      <div class="shopping-info">
+                        <a href="#" class="shopping-info-link">Rich Aviator Sunglasses</a>
+                        <p class="text-[#fff] text-[14px]">23$</p>
+                      </div>
+                    </div>
+                    <div class="shopping-right">
+                      <button class="shopping-btn">X</button>
+                    </div>                 
+                  </div>
+                </li> 
+                <li class="shopping-divider"></li>
+                <li class="shopping-cart flex-between">
+                  <p class="shopping-price p-global">£22.00</p>
+                  <button class="shopping-cart-btn">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="text-[16px] font-medium">View Cart</span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div class="iconHeader header-icon-bars border-[1px] border-slate-500 padding10">
+              <i class="fa fa-bars pointer-events-none hover:text-[#3498db] duration-200"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="banner group">
+      <div class="banner-wrapper">
+        <div class="banner-container">
+          <div class="banner-item">
+            <h2 class="banner-title animate-[bannerText 1s ease-in-out]">we are creative</h2>
+            <p class="banner-desc">
+              We believe in Simple, Creative & Flexible Design Standards.
+              Unlimited features, elements and fast and friendly support gives
+              ultimate website to boom your business.
+            </p>
+            <div class="banner-btn">learn more</div>
+          </div>
+          <div class="banner-item">
+            <h2 class="banner-title">we are creative</h2>
+            <p class="banner-desc">
+              We believe in Simple, Creative & Flexible Design Standards.
+              Unlimited features, elements and fast and friendly support gives
+              ultimate website to boom your business.
+            </p>
+            <div class="banner-btn">learn more</div>
+          </div>
+          <div class="banner-item">
+            <h2 class="banner-title">we are creative</h2>
+            <p class="banner-desc">
+              We believe in Simple, Creative & Flexible Design Standards.
+              Unlimited features, elements and fast and friendly support gives
+              ultimate website to boom your business.
+            </p>
+            <div class="banner-btn">learn more</div>
+          </div>
+        </div>
+        <div class="banner-dot">
+          <div class="banner-dot-item active" data-index="0">
+            <span class="banner-dot-itemSub pointer-events-none "></span>
+          </div>
+          <div class="banner-dot-item" data-index="1">
+            <span class="banner-dot-itemSub pointer-events-none"></span>
+          </div>
+          <div class="banner-dot-item" data-index="2">
+            <span class="banner-dot-itemSub pointer-events-none"></span>
+          </div>
+        </div>
+      </div>
+      <div class="banner-arrow group-hover:opacity-100 ">
+        <div class="banner-prev">
+          <i class="fa fa-angle-left"></i>
+        </div>
+        <div class="banner-next">
+          <i class="fa fa-angle-right"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about-container">
+        <h5 class="about-title">
+          We have more than 10 years experience in web design and development.
+        </h5>
+        <div class="about-container-item">
+          <div class="about-container-left">
+            <img
+              class="about-left-image"
+              src="http://zozothemes.com/html/epoint/demo/images/content/others/2.jpg"
+              alt=""
+            />
+            <p class="about-left-desc">
+              Et culpa dolore odio voluptate suscipit corporis sed ad sunt
+              autem! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="about-container-right">
+            <p class="about-right-desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+              culpa dolore odio voluptate suscipit corporis sed ad sunt autem!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+              culpa dolore odio voluptate suscipit corporis sed ad sunt autem!
+            </p>
+            <p class="about-right-desc">
+              Et culpa dolore odio voluptate suscipit corporis sed ad sunt
+              autem! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <br />
+            <div class="about-row">
+              <div class="about-row-item">
+                <i class="mr-[10px] text-[24px] text-[#32ccfe]
+                 fa fa-american-sign-language-interpreting"></i>
+                <h6 class="about-row-desc">Analysis</h6>
+              </div>
+              <div class="about-row-item">
+                <i class="mr-[10px] text-[24px] text-[#32ccfe]
+                 fa fa-paint-brush"></i>
+                <h6 class="about-row-desc">Analysis</h6>
+              </div>
+              <div class="about-row-item">
+                <i class="mr-[10px] text-[24px] text-[#32ccfe]
+                 fa fa-puzzle-piece"></i>
+                <h6 class="about-row-desc">Analysis</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <h2 class="services-title">
+        We Build Awesome and Beautiful Premium HTML, Wordpress, Magento,
+        Joomla, E-commerce Themes and Email Templates.
+      </h2>
+      <div class="services-container">
+        <div class="services-item">
+          <div class="services-item-icon"><i class="services-svg fa fa-plane"></i></div>
+          <h5 after="" class="services-itemH5 after:absolute after:bottom-[-20px] after:left-0 after:bg-[#3498db] after:border-[1px] after:border-[#3498db] after:w-[40px]">Creative Design</h5>
+          <p class="pt-[30px]">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa.
+          </p>
+        </div>
+        <div class="services-item">
+          <div class="services-item-icon"><i class="services-svg fa fa-mobile"></i></div>
+          <h5 after="" class="services-itemH5 after:absolute after:bottom-[-20px] after:left-0 after:bg-[#3498db] after:border-[1px] after:border-[#3498db] after:w-[40px]">App Development</h5>
+          <p class="pt-[30px]">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa.
+          </p>
+        </div>
+        <div class="services-item">
+          <div class="services-item-icon"><i class="services-svg fa fa-car"></i></div>
+          <h5 after="" class="services-itemH5 after:absolute after:bottom-[-20px] after:left-0 after:bg-[#3498db] after:border-[1px] after:border-[#3498db] after:w-[40px]">Creative Design</h5>
+          <p class="pt-[30px]">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa.
+          </p>
+        </div>
+        <div class="services-item">
+          <div class="services-item-icon"><i class="services-svg fa fa-cogs"></i></div>
+          <h5 after="" class="services-itemH5 after:absolute after:bottom-[-20px] after:left-0 after:bg-[#3498db] after:border-[1px] after:border-[#3498db] after:w-[40px]">Creative Design</h5>
+          <p class="pt-[30px]">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa.
+          </p>
+        </div>
+        <div class="services-item">
+          <div class="services-item-icon"><i class="services-svg fa fa-shopping-basket"></i></div>
+          <h5 after="" class="services-itemH5 after:absolute after:bottom-[-20px] after:left-0 after:bg-[#3498db] after:border-[1px] after:border-[#3498db] after:w-[40px]">Creative Design</h5>
+          <p class="pt-[30px]">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa.
+          </p>
+        </div>
+        <div class="services-item">
+          <div class="services-item-icon"><i class="services-svg fa fa-cube"></i></div>
+          <h5 after="" class="services-itemH5 after:absolute after:bottom-[-20px] after:left-0 after:bg-[#3498db] after:border-[1px] after:border-[#3498db] after:w-[40px]">Creative Design</h5>
+          <p class="pt-[30px]">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="projects-content">
+        <h3>Our Latest Projects</h3>
+        <p after="" class="after:absolute after:w-[40px] after:bg-[#3498db] after:border-[1px] after:border-[#3498db] after:bottom-[-40%] after:left-[50%] after:transform after:translate-x-[-50%]">
+          We Build Awesome and Beautiful Premium HTML, Wordpress, Magento,
+          Joomla, E-commerce Themes and Email Templates.
+        </p>
+      </div>
+      <div class="projects-wrapper">
+        <div class="projects-container">
+          <div class="projects-item">
+            <div class="projects-image">
+              <img
+                src="http://zozothemes.com/html/epoint/demo/images/content/portfolio/set3/2.jpg"
+                alt=""
+              />
+            </div>
+            <div class="project-title">
+              <a class="project-title-link" href="#">Ohio Shopper</a>
+              <p>Photography</p>
+            </div>
+          </div>
+          <div class="projects-item">
+            <div class="projects-image">
+              <img
+                src="http://zozothemes.com/html/epoint/demo/images/content/portfolio/set3/3.jpg"
+                alt=""
+              />
+            </div>
+            <div class="project-title">
+              <a class="project-title-link" href="#">Expert Book Seller</a>
+              <p>Branding</p>
+            </div>
+          </div>
+          <div class="projects-item">
+            <div class="projects-image">
+              <img
+                src="http://zozothemes.com/html/epoint/demo/images/content/portfolio/set3/4.jpg"
+                alt=""
+              />
+            </div>
+            <div class="project-title">
+              <a class="project-title-link" href="#">Limtop Creation</a>
+              <p>Art</p>
+            </div>
+          </div>
+          <div class="projects-item">
+            <div class="projects-image">
+              <img
+                src="http://zozothemes.com/html/epoint/demo/images/content/portfolio/set3/5.jpg"
+                alt=""
+              />
+            </div>
+            <div class="project-title">
+              <a class="project-title-link" href="#">Orion Studio</a>
+              <p>Web Design</p>
+            </div>
+          </div>
+          <div class="projects-item">
+            <div class="projects-image">
+              <img
+                src="http://zozothemes.com/html/epoint/demo/images/content/portfolio/set3/1.jpg"
+                alt=""
+              />
+            </div>
+            <div class="project-title">
+              <a class="project-title-link" href="#">Wifi Creators</a>
+              <p>Branding</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="projects-prev">
+        <i class="fa fa-chevron-left"></i>
+      </button>
+      <button class="projects-next">
+        <i class="fa fa-chevron-right"></i>
+      </button>
+    </section>
+
+    <section class="theme">
+      <div class="theme-container">
+        <h6 class="theme-title">
+          We ensure quality & support. People love us & we love them. We
+          provide services more than 100000 Customers worldwide.
+          <strong>Do you need any Help?</strong>
+        </h6>
+        <div class="theme-btn">
+          <button class="theme-btn-right">
+            Contact Now
+            <i class="fa fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="testimonials-title">
+        <h3 after="" class="after:absolute after:w-[40px] after:bg-[#3498db] after:border-[1px] after:border-[#3498db] after:bottom-[-40%] after:left-[50%] after:transform after:translate-x-[-50%]">What Clients Says?</h3>
+      </div>
+      <div class="testimonials-wrapper">
+        <div class="testimonials-container">
+          <div class="testimonials-item">
+            <div class="testimonials-item-desc">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.
+            </div>
+            <div class="testimonials-item-title">
+              <h6 class="text-[#222] mb-[5px] leading-6 font-semibold">Michael Y</h6>
+              <span class="text-[#a5a4a4]">Facebook</span>
+              <i class="absolute left-0 top-[10%] text-[24px] fa fa-quote-left"></i>
+            </div>
+          </div>
+          <div class="testimonials-item">
+            <div class="testimonials-item-desc">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.
+            </div>
+            <div class="testimonials-item-title">
+              <h6 class="text-[#222] mb-[5px] leading-6 font-semibold">Sue San</h6>
+              <span class="text-[#a5a4a4]">Bing</span>
+              <i class="absolute left-0 top-[10%] text-[24px] fa fa-quote-left"></i>
+            </div>
+          </div>
+          <div class="testimonials-item">
+            <div class="testimonials-item-desc">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.
+            </div>
+            <div class="testimonials-item-title">
+              <h6 class="text-[#222] mb-[5px] leading-6 font-semibold">Rachel Moore</h6>
+              <span class="text-[#a5a4a4]">Goolge</span>
+              <i class="absolute left-0 top-[10%] text-[24px] fa fa-quote-left"></i>
+            </div>
+          </div>
+          <div class="testimonials-item">
+            <div class="testimonials-item-desc">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.
+            </div>
+            <div class="testimonials-item-title">
+              <h6 class="text-[#222] mb-[5px] leading-6 font-semibold">Michael Y</h6>
+              <span class="text-[#a5a4a4]">Facebook</span>
+              <i class="absolute left-0 top-[10%] text-[24px] fa fa-quote-left"></i>
+            </div>
+          </div>
+          <div class="testimonials-item">
+            <div class="testimonials-item-desc">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.
+            </div>
+            <div class="testimonials-item-title">
+              <h6 class="text-[#222] mb-[5px] leading-6 font-semibold">Sue San</h6>
+              <span class="text-[#a5a4a4]">Bing</span>
+              <i class="absolute left-0 top-[10%] text-[24px] fa fa-quote-left"></i>
+            </div>
+          </div>
+          <div class="testimonials-item">
+            <div class="testimonials-item-desc">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.
+            </div>
+            <div class="testimonials-item-title">
+              <h6 class="text-[#222] mb-[5px] leading-6 font-semibold">Rachel Moore</h6>
+              <span class="text-[#a5a4a4]">Goolge</span>
+              <i class="absolute left-0 top-[10%] text-[24px] fa fa-quote-left"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonials-logo">
+        <div class="testimontals-logo-wrapper">
+          <div class="testimontals-logo-container">
+            <img class="w-[128px]"
+              src="http://zozothemes.com/html/epoint/demo/images/content/client/10.png"
+              alt=""
+            />
+            <img class="w-[128px]"
+              src="http://zozothemes.com/html/epoint/demo/images/content/client/1.png"
+              alt=""
+            />
+            <img class="w-[128px]"
+              src="http://zozothemes.com/html/epoint/demo/images/content/client/2.png"
+              alt=""
+            />
+            <img class="w-[128px]"
+              src="http://zozothemes.com/html/epoint/demo/images/content/client/3.png"
+              alt=""
+            />
+            <img class="w-[128px]"
+              src="http://zozothemes.com/html/epoint/demo/images/content/client/4.png"
+              alt=""
+            />
+            <img class="w-[128px]"
+              src="http://zozothemes.com/html/epoint/demo/images/content/client/5.png"
+              alt=""
+            />
+            <img class="w-[128px]"
+              src="http://zozothemes.com/html/epoint/demo/images/content/client/6.png"
+              alt=""
+            />
+            <img class="w-[128px]"
+              src="http://zozothemes.com/html/epoint/demo/images/content/client/7.png"
+              alt=""
+            />
+            <img class="w-[128px]"
+              src="http://zozothemes.com/html/epoint/demo/images/content/client/8.png"
+              alt=""
+            />
+            <img class="w-[128px]"
+              src="http://zozothemes.com/html/epoint/demo/images/content/client/9.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news">
+      <div class="projects-content news-title">
+        <h3>Latest News</h3>
+        <p>
+          We Build Awesome and Beautiful Premium HTML, Wordpress, Magento,
+          Joomla, E-commerce Themes and Email Templates.
+        </p>
+      </div>
+      <div class="news-main">
+        <div class="news-wrapper">
+          <div class="news-container">
+            <div class="news-item">
+              <img class="h-[276px]"
+                src="http://zozothemes.com/html/epoint/demo/images/content/blog/t5.jpg"
+                alt=""
+              />
+              <div class="news-content">
+                <a href="#">Latest App Updates</a>
+                <p>3rd Aug, 2016</p>
+              </div>
+            </div>
+            <div class="news-item">
+              <img class="h-[276px]"
+                src="http://zozothemes.com/html/epoint/demo/images/content/blog/t1.jpg"
+                alt=""
+              />
+              <div class="news-content">
+                <a href="#">Wordpress Installation Doc</a>
+                <p>23rd Aug, 2016</p>
+              </div>
+            </div>
+            <div class="news-item">
+              <img class="h-[276px]"
+                src="http://zozothemes.com/html/epoint/demo/images/content/blog/t2.jpg"
+                alt=""
+              />
+              <div class="news-content">
+                <a href="#">Make your website more fast</a>
+                <p>12th Aug, 2016</p>
+              </div>
+            </div>
+            <div class="news-item">
+              <img class="h-[276px]"
+                src="http://zozothemes.com/html/epoint/demo/images/content/blog/t3.jpg"
+                alt=""
+              />
+              <div class="news-content">
+                <a href="#">How to Slide PSD files?</a>
+                <p>3rd Aug, 2016</p>
+              </div>
+            </div>
+            <div class="news-item">
+              <img class="h-[276px]"
+                src="http://zozothemes.com/html/epoint/demo/images/content/blog/t4.jpg"
+                alt=""
+              />
+              <div class="news-content">
+                <a href="#">Changlog for Zozothemes</a>
+                <p>3rd Aug, 2016</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <div class="footer-btn">
+          CONTACT NOW
+          <i class="fa fa-envelope"></i>
+        </div>
+        <div class="footer-container">
+          <div class="footer-item">
+            <img
+              src="http://zozothemes.com/html/epoint/demo/images/logo-light.png"
+              alt="" 
+            />
+            <br />
+            <p class="text-[#aeadad] text-[15px]">
+              We believe in Simple, Creative & Flexible Design Standards.
+              Unlimited features, elements and fast and friendly support gives
+              ultimate website to boom your business.
+            </p>
+          </div>
+          <div class="footer-item">
+            <h5 class="footer-item-title">Our Office</h5>
+            <address>
+              <div class="footer-item-address">
+                <i class="text-[#aeadad] fa fa-map-marker footer-addres-icon"></i>
+                <p class="text-[#aeadad] text-[15px]">
+                  Zozotheme.com
+                  <br>
+                  No. 12, Ribbon Building, Walse street,
+                  Australia - 30001.
+                </p>
+              </div>
+              <div class="footer-item-address">
+                <i class="text-[#aeadad] fa fa-phone footer-addres-icon"></i>
+                <p class="text-[#aeadad] text-[15px]">+0 (123) 456-78-90</p>
+              </div>
+              <div class="footer-item-address">
+                <i class="text-[#aeadad] fa fa-envelope footer-addres-icon"></i>
+                <p class="text-[#3498db] hover:text-[#aeadad] cursor-pointer transition-all ease-linear">support@zozothemes.com</p>
+              </div>
+            </address>
+          </div>
+
+          <div class="footer-item">
+            <h5 class="footer-item-title">Quick Links</h5>
+            <ul class="footer-item-list">
+              <li class="py-[4px] text-[#aeadad]">
+                <i class="fa fa-angle-right footer-list-icon"></i>
+                <a href="#" class="footer-item-link">Home</a>
+              </li>
+              <li class="py-[4px] text-[#aeadad]">
+                <i class="fa fa-angle-right footer-list-icon"></i>
+                <a href="#" class="footer-item-link">Services</a>
+              </li>
+              <li class="py-[4px] text-[#aeadad]">
+                <i class="fa fa-angle-right footer-list-icon"></i>
+                <a href="#" class="footer-item-link">Our Portfolio</a>
+              </li>
+              <li class="py-[4px] text-[#aeadad]">
+                <i class="fa fa-angle-right footer-list-icon"></i>
+                <a href="#" class="footer-item-link">Our Experts</a>
+              </li>
+              <li class="py-[4px] text-[#aeadad]">
+                <i class="fa fa-angle-right footer-list-icon"></i>
+                <a href="#" class="footer-item-link">Blog</a>
+              </li>
+              <li class="py-[4px] text-[#aeadad]">
+                <i class="fa fa-angle-right footer-list-icon"></i>
+                <a href="#" class="footer-item-link">About Us</a>
+              </li>
+              <li class="py-[4px] text-[#aeadad]">
+                <i class="fa fa-angle-right footer-list-icon"></i>
+                <a href="#" class="footer-item-link">Features</a>
+              </li>
+              <li class="py-[4px] text-[#aeadad]">
+                <i class="fa fa-angle-right footer-list-icon " ></i>
+                <a href="#" class="footer-item-link">Client Reviews</a>
+              </li>
+              <li class="py-[4px] text-[#aeadad]">
+                <i class="fa fa-angle-right footer-list-icon"></i>
+                <a href="#" class="footer-item-link">Packages</a>
+              </li>
+              <li class="py-[4px] text-[#aeadad]">
+                <i class="fa fa-angle-right footer-list-icon"></i>
+                <a href="#" class="footer-item-link">Support</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-item">
+            <h5 class="footer-item-title">EMAIL NEWSLETTER</h5>
+            <p class="footer-item-desc">Subscribe to Our Newsletter to get Important News, Amazing Offers & Inside Scoops:</p>
+            <div class="footer-item-input">
+              <input class="py-[6px] pl-[12px] pr-[42.5px] border-[1px] border-[#3498db] bg-transparent transition-all duration-200 ease-linear sm:w-full md:w-[217px] lg:w-[217px] text-[#fff] focus:border-[#7c7c7c]" type="email" placeholder="Enter Your Email">
+              <div class="footer-item-btn">
+                <i class="fa fa-share"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+     <div after="" class="footer-bottom-wrapper after:absolute after:border-t-[1px] after:border-[#3b3a3a] after:top-0 after:w-full">
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          © 2022 ePoint. All Rights Reserved. Terms & Conditions Cookie policy
+        </div>
+        <div class="footer-bottom-icon">
+          <ul class="flex item-center">
+            <li class="px-[10px]">
+              <a class="text-[#fff]" href="">
+                <ion-icon class="" name="logo-facebook">
+              </a>
+            </li>
+            <li class="px-[10px]">
+              <a class="text-[#fff]" href="">
+                <ion-icon class="" name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li class="px-[10px]">
+              <a class="text-[#fff]" href="">
+                <ion-icon class="" name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li class="px-[10px]">
+              <a class="text-[#fff]" href="">
+                <ion-icon class="" name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+            <li class="px-[10px]">
+              <a class="text-[#fff]" href="">
+                <ion-icon class="" name="logo-google"></ion-icon>
+              </a>
+            </li>
+            <li class="px-[10px]">
+              <a class="text-[#fff]" href="">
+                <ion-icon class="" name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+            <li class="px-[10px]">
+              <a class="text-[#fff]" href="">
+                <ion-icon class="" name="logo-dribbble"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+     </div>
+    </footer>
+
+  </div>
+
+  
+</body>
+</html>
+
+<!-- npx tailwindcss -i css/tailwind.css -o build/tailwind.css --watch -->
